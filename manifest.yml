@@ -1,0 +1,14 @@
+applications:
+  - name: my-sap-sdk
+    instances: 1
+    memory: 128M
+    routes:
+      - route: my-data-mt.cfapps.eu10.hana.ondemand.com
+    path: deployment/
+    buildpacks:
+      - nodejs_buildpack
+    command: npm run start:prod
+    timeout: 180
+    services:
+      - my-sdk-destination
+      - sdk-xsuaa

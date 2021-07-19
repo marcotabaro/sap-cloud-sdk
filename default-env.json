@@ -1,0 +1,36 @@
+{
+  "VCAP_SERVICES": {
+    "xsuaa": [
+      {
+        "binding_guid": "436edc4b-a199-4034-8b44-bba9bdadd57c",
+        "binding_name": null,
+        "credentials": {
+          "apiurl": "https://api.authentication.eu10.hana.ondemand.com",
+          "clientid": "sb-sdk-xsuaa!t90176",
+          "clientsecret": "s0coCSNCS81pTsvmy4R/m5hgkbI=",
+          "credential-type": "instance-secret",
+          "identityzone": "constep-demo",
+          "identityzoneid": "713fe40c-6f5c-4e90-beb4-e4eb66707cfd",
+          "sburl": "https://internal-xsuaa.authentication.eu10.hana.ondemand.com",
+          "subaccountid": "713fe40c-6f5c-4e90-beb4-e4eb66707cfd",
+          "tenantid": "713fe40c-6f5c-4e90-beb4-e4eb66707cfd",
+          "tenantmode": "shared",
+          "uaadomain": "authentication.eu10.hana.ondemand.com",
+          "url": "https://constep-demo.authentication.eu10.hana.ondemand.com",
+          "verificationkey": "-----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoMv9aAKE5LNN2CoWze9swH5GdikgbeH5aaO1omrNNPbXJvmVXKQ502JxCVZmHWPYqjHsjguB2ioiGIAdnHj+ovcQRkR7NmC6kocQtFf8M6tjerpqS22bbweCxQiqMYgpgZcKGC5Zq14eokoKTLVSX0Iwc1KkYGTyBTDBJdfBcTbEHyMrrJAuNQibjiDtI37l4rL6yd2a/fH86Ll3fBBhGhMcC5phP5lkvjlSUGo3PmiZBIpArpF6qiglcypeLQGsJV2BQv5x89s0sx0z3xDqn/IOVfDGMRi9Q6G8W77kCD5UOHRUTVki5wdH6dQnBX3bJlogDMrN5OfBsvmlosTMrQIDAQAB-----END PUBLIC KEY-----",
+          "xsappname": "sdk-xsuaa!t90176",
+          "zoneid": "713fe40c-6f5c-4e90-beb4-e4eb66707cfd"
+        },
+        "instance_guid": "3d15853d-b92a-4dcd-a865-75ee434f9267",
+        "instance_name": "sdk-xsuaa",
+        "label": "xsuaa",
+        "name": "sdk-xsuaa",
+        "plan": "application",
+        "provider": null,
+        "syslog_drain_url": null,
+        "tags": ["xsuaa"],
+        "volume_mounts": []
+      }
+    ]
+  }
+}
