@@ -7,7 +7,5 @@ import { IotService } from './iot.service';
   imports: [],
   controllers: [DataController],
   providers: [DataService, IotService],
-
 })
-export class AppModule {
-
+export class AppModule {}

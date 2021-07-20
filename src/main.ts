@@ -16,7 +16,7 @@ async function bootstrap() {
     console.log(e);
   }
   app.use(passport.initialize());
-  app.use(passport.authenticate('JWT', {session: false}));
+  app.use(passport.authenticate('JWT', { session: false }));
 
   await app.listen(process.env.PORT || 3000);
 }
